@@ -7,38 +7,6 @@ There we’re multiple iteration on the design but it was never the intent to sh
 
 During the design proces a lot of inspiration came from other CoreXY systems like the Hypercube, S.T.E.V.E. & Voron designs. These and others printers we're and still are great design inspirations!
 
-I'm  open for ideas and input on the  design so please feel free to comment and improve on the design1 :)
+I'm  open for ideas and input on the  design so please feel free to comment and improve on the design :)
 
-# Current setup:
-Short: 24V Corexy system with direct extruder and a build volume of 280x340x150(XYZ)
-Electronics:
-- Re-arm (32 bit) https://reprap.org/wiki/Re-ARM
-- Ramps 1.4 (24v)
-  - TMC2100 for X&Y
-  - DRV8825 for Z & E
-- Raspberry pi 2b (running Octoprint)
-- Nema 17 for X&Y
-- Nema 23 for Z (See next steps)
-
-Print head & Bed:
-- Bltouch 
-- Radial parts cooling fan (50x50)
-- Hemera https://e3d-online.com/e3d-hemera-175-kit
-- Heavy lead screw ball bearing
-- 350 x 450 Silicone heater 220V 1000W with glass plate on top
-
-Motion system:
-- Gates GT2 belts
-- Cheap chinese pulley's (See next steps)
-- 8 mm rods on X (See next steps)
-- 10 mm rods on Y
-
-# Next steps
-- Organise and fill  github with the design files
-- Experiment with Carbon fiber rods on X 
-  - Rods from:https://www.ebay.com/str/haozhongcarbonfibertube
-  - IGUS JSM bearings
-- Replace  cheap pulley's with tootehed and higher quality pulley's from: https://powge.aliexpress.com/store/702327
-- Improve rigidity of the frame by replacing top plate with 40x40 extrusion profile 
-- Tidy up the electronis
-- Convert to Dual Z Nema 17 motors for higher Z speed en less noise
+This current branch is filled with my previous designs, I'm currently working on Version 8 with carbon fibre rods and a Hemera. 
